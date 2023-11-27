@@ -1,5 +1,5 @@
 
-data = {'hi':'hello sir','how are you':'i am fine','hey':'hi',}
+data = {'hi':'hello boss','how are you':'i am fine','hey':'hi',}
 
 while True:
 	You = input('You:').lower()
@@ -11,7 +11,7 @@ while True:
 				if You in data:
 					print('Bot:' + data[You])
 				else:
-					print('Bot: idk')
+					print('Bot: i can not understand what are you trying to say?')
 			except Exception as e:
 				print('System Error:' + e)
 			
